@@ -11,7 +11,7 @@ router.post('/', (req, res) => {
             1. Kuzuza imyirondoro\n
         `;
     }else if(text === '1'){
-        response = `CON Uzuza izina ryawe:`;
+        response = `END Uzuza izina ryawe:`;
         if(text.length > 2){
             response = `CON Uzuza umwaka wavutsemo.`;
             if(text.length === 4) {
