@@ -7,7 +7,7 @@ router.post('/', (req, res) => {
 
     if (text === '') {
         // This is the first request. Note how we start the response with the initial prompt.
-        response = `CON Murakaza neza kuri E-justice.\n
+        response = `CON Murakaza neza kuri I-justice.\n
             Uzuza amazina yawe.\n
         `;
     }
